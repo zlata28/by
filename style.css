@@ -1,3 +1,37 @@
-h1{
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+body{
+    width: 1298px;
+    height: 5155px;
+    background-color: #162831;
+}
+
+/* Меню */
+
+header{
+    width: 1298px;
+    height: 60px;
+    display: flex;
+    margin: 30px;
+    }
+    header img{
+        justify-content: flex-start;
+    }
+    nav{
+        margin: 30 auto 0 auto;
+    }
+    nav a{
+        color: white;
+        margin-left: 50px;
+        text-decoration: none;
+    }  
+    header button{
+        justify-content: flex-end;
+        padding: 9px 15px 9px 15px;
+        color: white;
+        background-color: #018abe;
+        border-radius: 10px;
+    } 
