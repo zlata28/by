@@ -5,8 +5,7 @@
 body{
     width: 1440px;
     height: 9090px;
-    top: 56px;
-    left: -2px;
+   
 
 }
 header{
@@ -17,22 +16,38 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 }
-.block_head{
+.one_head{
    margin-left: 30px;
    display: flex;
    gap: 42px;
 }
-.block3_head{
+.tre_head{
     margin-right: 30px;
     display: flex;
     gap: 42px;
 }
 
-.tekst{
-    
-    margin-left: 30px;
-    
+.first_box{
+    width: 1440px;
+    height: 882px;
+    display: flex;
+    background-image: url(./nabor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
 }
-.knopka{
-    
+ 
+.first_box_cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: -500px 25px 0 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
